@@ -11,16 +11,13 @@
 
 //simulate using https://wokwi.com/projects/341793028461036115
 
-#include <stdlib.h>
-#include <avr/io.h>        // Adds useful constants
-
 //ATtiny85 - DRV8833 motor control (speed/direction)
 
 // LED output pins:
 const int FETdriverA1 = 0;      // (0, IC pin 5)
 const int FETdriverA2 = 1;      // (1, IC pin 6)
 const int SW1         = 3;      // Direction Switch
-const int PotPin1     = 4;      // Speed Pot.
+const int PotPin1     = A2;      // Speed Pot.
 
 int sensorValue = 0;
 

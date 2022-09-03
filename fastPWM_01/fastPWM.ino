@@ -12,7 +12,7 @@
 //simulate using https://wokwi.com/projects/341773753106039380
 
 int SW1 = 3; //Direction Switch
-int PotPin1 = 4;  // Speed Pot.
+int PotPin1 = A2;  // Speed Pot.
 int sensorValue = 0;
 
 void PWM_config()
