@@ -19,8 +19,9 @@ void PWM_config()
   OCR0A = 150; // Generating PWM of 58.9% duty cycle from OC0A
   OCR0B = 250; // Generating PWM of 98% duty cycle from OC0B
 }
-
-int loop()
+void setup() {
+}
+void loop()
 {
   PWM_config();
 }
