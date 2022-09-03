@@ -9,12 +9,10 @@
 //                   GND 4|    |5  PB0 out 0 Fast PWM, DRV8833 Ain2
 //                        ------
 
-#define F_CPU 8000000  // This is used by delay.h library
-// #define F_CPU 16500000UL
+//simulate using https://wokwi.com/projects/341793028461036115
 
 #include <stdlib.h>
 #include <avr/io.h>        // Adds useful constants
-#include <util/delay.h>    // Adds delay_ms and delay_us functions
 
 //ATtiny85 - DRV8833 motor control (speed/direction)
 

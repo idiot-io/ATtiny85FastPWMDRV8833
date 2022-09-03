@@ -8,7 +8,9 @@
 //Pot1 spd. in 4 A2  PB4 3|    |6  PB1 out 1 Fast PWM, DRV8833 Ain1
 //                   GND 4|    |5  PB0 out 0 Fast PWM, DRV8833 Ain2
 //                        ------
-#define F_CPU 16500000UL
+
+//simulate using https://wokwi.com/projects/341773753106039380
+
 int SW1 = 3; //Direction Switch
 int PotPin1 = 4;  // Speed Pot.
 int sensorValue = 0;
